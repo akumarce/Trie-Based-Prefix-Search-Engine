@@ -152,7 +152,7 @@ void printBanner() {
   cout << "\n" << Color::BOLD << Color::CYAN;
   cout << "  ╔══════════════════════════════════════════════════════╗\n";
   cout << "  ║                                                      ║\n";
-  cout << "  ║        TRIE AUTO-SUGGEST SYSTEM v2.0                ║\n";
+  cout << "  ║    TRIE-BASED PREFIX SEARCH ENGINE v2.0          ║\n";
   cout << "  ║        Intelligent Prefix-Based Search              ║\n";
   cout << "  ║                                                      ║\n";
   cout << "  ╚══════════════════════════════════════════════════════╝";
@@ -379,7 +379,7 @@ int main() {
       cout << "\n";
       printThickLine();
       cout << "\n  " << Color::GREEN << Color::BOLD << "✓" << Color::RESET
-           << Color::GREEN << " Thank you for using Trie Auto-Suggest System!"
+           << Color::GREEN << " Thank you for using Trie-Based Prefix Search Engine!"
            << Color::RESET << "\n";
       cout << "  " << Color::DIM << "Session terminated. Goodbye!"
            << Color::RESET << "\n\n";
